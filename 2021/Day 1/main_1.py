@@ -1,4 +1,4 @@
-x = [int(line.strip()) for line in open('input_1.txt')]
+x = [int(line.strip()) for line in open('input.txt')]
 counter = 0
 
 for i in range(1, len(x)):
