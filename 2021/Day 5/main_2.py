@@ -26,9 +26,6 @@ for i in range(m+1):
 # main loop
 for i in range(0, len(c)):
     x1, y1, x2, y2 = c[i]
-    r = abs(y1-y2)
-    if r == 0:
-        r = abs(x1-x2)
 
     if y1 == y2:
         if x1 >= x2:
